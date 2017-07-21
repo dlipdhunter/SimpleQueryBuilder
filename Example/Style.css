@@ -1,0 +1,39 @@
+.query {
+    border-color: rgb(221, 221, 221); 
+    border-radius: 5px; 
+    width: 500px; 
+    height: 100px;
+    resize: none;
+    font-size: 14pt;
+    display: block;
+    margin: auto;
+
+}
+
+.suggestion {
+    margin: auto;
+    display: block;
+    width: 300px;
+}
+
+.suggestion ul {
+    list-style-type: none;
+    line-height: 20px;
+    background-color: #ddd;
+    padding: 5px;
+}
+.suggestion ul li {
+    
+}
+
+.suggestion ul li a {
+    text-decoration: unset;
+    width: 97%;
+    height: 20px;
+    padding: 5px;
+    display: block;
+}
+
+.suggestion ul li a:hover {
+    background-color: yellowgreen;
+}
